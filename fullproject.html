@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Projects - Aflah's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    gridTemplateColumns: {
+                        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
+                    },
+                    fontFamily: {
+                        Outfit: ["Outfit", "sans-serif"],
+                        Ovo: ["Ovo", "serif"]
+                    },
+                    colors: {
+                        darkTheme: '#11001F',
+                        darkHover: '#2a004a',
+                        lightHover: '#fcf4ff',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="font-Outfit leading-8 dark:bg-darkTheme dark:text-white transition-colors duration-300">
+    <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
+        <img src="./assets/header-bg-color.png" alt="" class="w-full" />
+    </div>
+    
+    <div class="w-full px-[12%] py-10 scroll-mt-20">
+        <!-- Back Navigation -->
+      <div class="max-w-6xl mx-auto">
+        <a href="./index.html" class="inline-flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors mb-12">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+          Back to Portfolio
+        </a>
+
+        <header class="mb-16">
+          <h2 class="text-center text-5xl font-Ovo">Full Project Gallery</h2><br>
+          <p class="mb-10 font-Ovo text-center">
+            A detailed look at all the projects I've worked on during my university studies.
+          </p>
+        </header>
+
+        <div class="grid grid-cols-auto my-10 gap-5">
+          
+            <!-- Project Detail 1 -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work1/1200/800" alt="Frontend project" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">SAP BTP</span>
+                <div class="flex gap-2">
+                   <a href="#" title="GitHub Repository" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                   </a>
+                   <a href="assets/uthm_hostelmanagementsystem.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">UTHM Hostel Management System</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                Managed to design use case, sequence, activity and ERD diagram for the subsystem, and implmented the frontend of the subsystem using SAP Build Apps.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">SAP Build Apps</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">ERD Diagram</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Use Case Diagram</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Sequence Diagram</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Activity Diagram</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail 2 -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work3/1200/800" alt="Photography site" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">ERP Design</span>
+                <div class="flex gap-2">
+                   <a href="https://github.com/aflahh12/UTHM_EnterpriseArchitecture" title="GitHub Repository" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">UTHM Enterprise Architecture</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                Designed an as-is and to-be enterprise architecture for a university, focusing on upgrading technology and phasing out legacy systems and manual processes.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Enterprise Architecture Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work4/1200/800" alt="UI/UX designing" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Industry</span>
+                <div class="flex gap-2">
+                   <a href="assets/PPG industrial talk.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">PPG Industrial Talk</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                Designed an industrial talk poster on the summary of how PPG's using ERP and SAP system to manage their business operations, and the technologies they used to achieve their business goals.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Canva</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work2/1200/800" alt="Geo based app" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Group Project</span>
+                <div class="flex gap-2">
+                   <a href="#" title="GitHub Repository" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                   </a>
+                   <a href="assets/SRS - KodeLab.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">KADA Cooperative System</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                In this project, me and my team successfully developed a cooperative management system for Lembaga Kemajuan Pertanian Kemubu (KADA) to digitalize the paper-based processes of the cooperative into a fully functional web platform.
+                Managed the database using phpMyAdmin, and performed normalization. This project also contributed to agile project documentation.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">PHP</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">PhpMyAdmin</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">XAMPP</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Agile Methodolody</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail 3 -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work3/1200/800" alt="Photography site" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Database Programming Project</span>
+                <div class="flex gap-2">
+                   <a href="assets/project2db.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Court Booking System</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                As my role in this project was optimization specialist, I designed and implemented advanced database sorting and query optimization strategies for a sports court reservation system built on MongoDB. <br>
+                <!-- Here's what I implemented: <br>
+                - Built a catalog sort for the courts collection organizing results by sport type and price, helping customers identify budget-friendly options. <br>
+                - Created an operational priority sort for bookings ranked by status and date, enabling administrators to surface urgent reservations instantly. <br>
+                - Applied projections across all sorting queries to strip internal metadata from outputs, ensuring sensitive system fields were never exposed to end users. -->
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">MongoDB</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">NoSQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail 4 -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work4/1200/800" alt="UI/UX designing" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Database Programming Project</span>
+                <div class="flex gap-2">
+                   <a href="assets/project1db.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Attendance System</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                Designed and implemented database query optimization strategies for a relational attendance tracking system built on MySQL, supporting student, lecturer, course, and attendance data across a university environment.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">MySQL</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">SQL</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">BTREE & FULLTEXT index design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail 5 -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work1/1200/800" alt="Frontend project" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Geographic Information System</span>
+                <div class="flex gap-2">
+                   <a href="assets/assignment3-GIS.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Smart Parking Planning and Management System</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                Using the knowledge I gained from the GIS course, me and my team capable to analyze the spatial patterns, evaluate the land suitability, and support the strategic planning that will lead to a decrease in parking congestion and improvement in overall campus mobility.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">GIS Knowledge</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Spatial Analysis</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">ArcGIS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail 6 -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work2/1200/800" alt="Geo based app" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Geographic Information System</span>
+                <div class="flex gap-2">
+                   <a href="assets/assignment2-GIS.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Importing Spatial Features</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                In this project, me and my team successfully imported spatial features from a shapefile into a geospatial database, ensuring accurate representation and seamless integration of geographic data for our GIS applications.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">ArcGIS</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Spatial Query</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Attribute Query</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Buffer Analysis</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Clip Analysis</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Merge Analysis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work4/1200/800" alt="UI/UX designing" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Data Analytics Programming</span>
+                <div class="flex gap-2">
+                   <a href="https://github.com/aflahh12/Data-Analysis-Programming-Project/blob/main/Data%20Mining/DMProject1_Preprocessing-checkpoint.ipynb" title="GitHub Repository" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Data Preparation and Preprocessing</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                I successfully imported data and performed data preparation and preprocessing techniques to ensure the quality and reliability of our dataset.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Python</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Pandas</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">NumPy</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">matplotlib</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Data Cleaning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work1/1200/800" alt="Frontend project" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Data Analytics Programming</span>
+                <div class="flex gap-2">
+                   <a href="https://github.com/aflahh12/Data-Analysis-Programming-Project" title="GitHub Repository" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Analyze CO2 Emissions from Dataset & Provide Insights</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                In this project, me and my team successfully preprocessed data and provided insights to group cars according to their emissions levels.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Python</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Data Merging</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Data Cleaning</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Data Aggregation</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Data Visualization</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Classification</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work3/1200/800" alt="Photography site" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">Group Project</span>
+                <div class="flex gap-2">
+                   <a href="assets/psda project 2.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Probability and Statistical Data Analysis</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                In this project, me and my team successfully analyzed factors that ay affect students' performance at GS Ling Academy using statistical analysis tests and provided insights to help them improve their performance.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Statistics</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Data Analysis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Detail -->
+          <div class="group bg-gray-50 dark:bg-zinc-900/50 p-6 rounded-3xl border border-transparent hover:border-lime-300 transition-all duration-300">
+            <div class="relative overflow-hidden rounded-2xl mb-6 aspect-video">
+              <img src="https://picsum.photos/seed/work2/1200/800" alt="Geo based app" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" referrerPolicy="no-referrer">
+            </div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-start">
+                <span class="text-sm font-medium text-lime-600 dark:text-lime-400 uppercase tracking-wider">OOP Project</span>
+                <div class="flex gap-2">
+                  <a href="https://github.com/aflahh12/Miniproject_OOP/tree/main/Miniproject_Group1" title="GitHub Repository" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                   </a>
+                   <a href="assets/REPORT OOP MINI PROJECT GROUP 1.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                   </a>
+                </div>
+              </div>
+              <h3 class="text-2xl font-semibold">Mini Project - Hotel Booking System</h3>
+              <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                In this project, me and my team successfully developed a hotel booking system using object-oriented programming principles, allowing users to make reservations, manage bookings, and access booking information through a user-friendly interface.
+              </p>
+              <div class="pt-2">
+                <p class="text-xs font-semibold text-gray-400 uppercase mb-2 tracking-widest">Skills Used</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">OOP</span>
+                  <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium">Java</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Theme Persistence Script -->
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</body>
+</html>
