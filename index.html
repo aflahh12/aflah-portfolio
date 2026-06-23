@@ -27,12 +27,13 @@
         </a>
 
         <ul id="navLink"
-            class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo dark:border dark:border-white/30 dark:bg-transparent ">
+            class="hidden md:flex items-center gap-5 lg:gap-6 rounded-full px-8 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo dark:border dark:border-white/30 dark:bg-transparent whitespace-nowrap">
             <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#top">Home</a></li>
-            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">About me</a></li>
-            <!-- <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#academics">Academics</a></li> -->
-            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#work">My Work</a></li>
-            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#contact">Contact me</a></li>
+            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">About</a></li>
+            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#education">Education</a></li>
+            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#leadership">Leadership</a></li>
+            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#work">Projects</a></li>
+            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#contact">Contact</a></li>
         </ul>
 
         <div class="flex items-center gap-4">
@@ -64,23 +65,22 @@
             </div>
 
             <li><a href="#top" onclick="closeMenu()">Home</a></li>
-            <li><a href="#about" onclick="closeMenu()">About me</a></li>
-            <!-- <li><a href="#academics" onclick="closeMenu()">Academics</a></li> -->
-            <li><a href="#work" onclick="closeMenu()">My Work</a></li>
-            <li><a href="#contact" onclick="closeMenu()">Contact me</a></li>
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#education" onclick="closeMenu()">Education</a></li>
+            <li><a href="#leadership" onclick="closeMenu()">Leadership</a></li>
+            <li><a href="#work" onclick="closeMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
         </ul>
     </nav>
 
     <!-- ----- home section ------ -->
-    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-        <img src="./assets/myprofile.png" alt="" class="rounded-full w-32" />
+    <div class="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center pt-32 pb-16 gap-4">
+        <img src="./assets/myprofile.png" alt="" class="rounded-full w-32 mt-12" />
         <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
-            Hi! I&apos;m Nabil Aflah Boo
-            <img src="./assets/hand-icon.png" alt="" class="w-6 mb-1" />
+            Hi 👋🏻, I'm Aflah Boo
         </h3>
-        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">CS (Data Engineering) Student at UTM</h1>
-        <p class="max-w-2xl mx-auto font-Ovo">Bachelor of Computer Science (Data Engineering) student at Universiti Teknologi Malaysia. Proficient in SQL and Python, and web-based application development using
-        modern frameworks and technologies. I have practical experience in system development and web technologies, where I gained a strong understanding of both technical and problem-solving aspects.</p>
+        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">A passionate Data Engineering student</h1>
+        <p class="max-w-2xl mx-auto font-Ovo">Third-year Computer Science (Data Engineering) student at Universiti Teknologi Malaysia (UTM) with interests in data engineering, data analytics, business intelligence, and system development. Passionate about transforming raw data into meaningful insights through data pipelines, database systems, dashboard development, and AI-powered solutions.</p>
 
         <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a href="#contact"
@@ -110,16 +110,16 @@
                 </div>
             </div>
             <div class="flex-1">
-                <p class="mb-10 max-w-2xl font-Ovo">I am a third-year Bachelor of Computer Science (Data Engineering) student with a strong interest in data engineering, data analytics, and software development. 
-                    I have hands-on experience in system development and web technologies, supported by solid problem-solving skills. Through leadership roles and community involvement, I have developed strong teamwork, 
-                    communication, and organizational abilities.</p>
+                <p class="mb-6 max-w-2xl font-Ovo text-gray-700 dark:text-white/80">Third-year <strong>Computer Science (Data Engineering)</strong> student at Universiti Teknologi Malaysia (UTM) with interests in <strong>data engineering, data analytics, business intelligence, and system development</strong>. Passionate about transforming raw data into meaningful insights through data pipelines, database systems, dashboard development, and AI-powered solutions. Enjoy building practical applications that improve efficiency and support data-driven decision-making.</p>
+                
+
                 <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
                     <li
                         class="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
                         <img src="./assets/language.png" alt="" class="w-7 mt-3 dark:hidden"><img
                             src="./assets/language-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
                         <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Languages</h3>
-                        <p class="text-gray-600 text-sm dark:text-white/80">Bahasa Melayu, English, Mandarin </p>
+                        <p class="text-gray-600 text-sm dark:text-white/80">Bahasa Melayu, English, Mandarin</p>
                     </li>
                     <li
                         class="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
@@ -133,182 +133,377 @@
                         <img src="./assets/project-icon.png" alt="" class="w-7 mt-3 dark:hidden"><img
                             src="./assets/project-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
                         <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Projects</h3>
-                        <p class="text-gray-600 text-sm dark:text-white/80">Built more than 5 projects</p>
+                        <p class="text-gray-600 text-sm dark:text-white/80">Built more than 10 projects</p>
                     </li>
                 </ul>
-                <h4 class="my-6 text-gray-700 font-Ovo dark:text-white/80">Tools i use</h4>
-                <ul class="flex items-center gap-3 sm:gap-5">
+                <h4 class="my-6 text-gray-700 font-Ovo dark:text-white/80">Languages & Tools</h4>
+                <ul class="flex items-center gap-3 sm:gap-5 flex-wrap">
                     <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="./assets/vscode.png" alt="vscode" class="w-5 sm:w-7">
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="Python">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" class="w-5 sm:w-7">
                     </li>
                     <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="./assets/cpp.png" alt="cpp" class="w-5 sm:w-7">
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="C++">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" class="w-5 sm:w-7">
                     </li>
                     <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="./assets/java.png" alt="java" class="w-5 sm:w-7">
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="Java">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" class="w-5 sm:w-7">
                     </li>
                     <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="./assets/python.png" alt="python" class="w-5 sm:w-7">
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="MySQL">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" class="w-5 sm:w-7">
                     </li>
                     <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="./assets/mysql.png" alt="mysql" class="w-5 sm:w-7">
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="MongoDB">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" class="w-5 sm:w-7">
                     </li>
                     <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="./assets/mongodb.png" alt="mongodb" class="w-5 sm:w-7">
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="HTML5">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" class="w-5 sm:w-7">
                     </li>
                     <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="./assets/figma.png" alt="figma" class="w-5 sm:w-7">
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="CSS3">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" class="w-5 sm:w-7">
+                    </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white/50 dark:bg-transparent" title="Figma">
+                        <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" class="w-5 sm:w-7">
                     </li>
                 </ul>
             </div>
         </div>
     </div> 
 
-    <!-- academics -->
-    <!-- <div id="academics" class="w-full px-[12%] py-10 scroll-mt-20">
-        <h4 class="text-center mb-2 text-lg font-Ovo">My Journey</h4>
-        <h2 class="text-center text-5xl font-Ovo">Education & Achievements</h2>
+    <!-- ----- education & certifications section ------ -->
+    <div id="education" class="w-full px-[12%] py-10 scroll-mt-20">
+        <h4 class="text-center mb-2 text-lg font-Ovo font-semibold text-[#da7d20] dark:text-orange-400">My Qualifications</h4>
+        <h2 class="text-center text-5xl font-Ovo">Education & Certifications</h2>
         
-        <div class="flex flex-col lg:flex-row gap-10 mt-16">
-            
-            <div class="flex-1">
-                <h3 class="text-2xl font-Ovo mb-6 flex items-center gap-2">
-                    <img src="./assets/edu-icon.png" alt="" class="w-6 dark:invert"> Education
+        <div class="flex flex-col lg:flex-row gap-10 mt-16 max-w-6xl mx-auto">
+            <!-- Left Column: Education -->
+            <div class="flex-1 bg-white/50 dark:bg-darkHover/20 border border-gray-300 dark:border-white/10 rounded-3xl p-8 hover:shadow-black dark:hover:shadow-white/20 transition-all duration-300">
+                <h3 class="text-2xl font-Ovo mb-8 flex items-center gap-3 text-gray-800 dark:text-white border-b border-gray-200 dark:border-white/10 pb-4">
+                    <img src="./assets/edu-icon.png" alt="Education" class="w-6 dark:hidden">
+                    <img src="./assets/edu-icon-dark.png" alt="Education" class="w-6 hidden dark:block">
+                    Education
                 </h3>
                 
-                <div class="border-l-2 border-gray-200 dark:border-white/20 ml-2">
-                    <div class="relative pl-8 mb-10">
-                        <div class="absolute w-4 h-4 bg-gradient-to-r from-[#b820e6] to-[#da7d20] rounded-full -left-[9px] top-2"></div>
-                        <h4 class="text-xl font-semibold font-Ovo">B.CS (Data Engineering) with Honours</h4>
-                        <p class="text-gray-700 dark:text-white/80 font-Ovo">Universiti Teknologi Malaysia (UTM)</p>
-                        <span class="text-sm text-gray-500">2023 - Present</span>
-                        <p class="mt-2 text-sm text-gray-600 dark:text-white/60">Specializing in big data technologies, machine learning, and database management. Current CGPA: 3.73/4.00.</p>
+                <div class="space-y-6">
+                    <div class="relative pl-6 border-l-2 border-[#da7d20] dark:border-orange-400">
+                        <div class="absolute w-3 h-3 bg-[#da7d20] dark:bg-orange-400 rounded-full -left-[7px] top-1.5"></div>
+                        <h4 class="text-xl font-bold font-Ovo text-gray-800 dark:text-white">Bachelor of Computer Science (Data Engineering) with Honours</h4>
+                        <p class="text-gray-700 dark:text-white/80 font-Ovo mt-1">Universiti Teknologi Malaysia (UTM)</p>
+                        <div class="flex flex-wrap items-center gap-3 mt-3 text-xs font-semibold text-gray-600 dark:text-gray-400">
+                            <span class="px-2.5 py-0.5 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full">2023 - Present</span>
+                            <span class="px-2.5 py-0.5 bg-[#da7d20]/10 text-[#da7d20] dark:text-orange-400 rounded-full font-bold">CGPA: 3.73</span>
+                            <span class="px-2.5 py-0.5 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full">Semester 6/8</span>
+                        </div>
                     </div>
 
-                    <div class="relative pl-8 mb-5">
-                        <div class="absolute w-4 h-4 bg-gray-300 dark:bg-darkHover rounded-full -left-[9px] top-2"></div>
-                        <h4 class="text-xl font-semibold font-Ovo">Foundation in Physical Science</h4>
-                        <p class="text-gray-700 dark:text-white/80 font-Ovo">UTM SPACE</p>
-                        <span class="text-sm text-gray-500">2022 - 2023</span>
+                    <div class="mt-8">
+                        <h5 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-4">Relevant Coursework:</h5>
+                        <div class="flex flex-wrap gap-2.5">
+                            <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium text-gray-700 dark:text-gray-300">Data Analysis Programming</span>
+                            <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium text-gray-700 dark:text-gray-300">Database Programming</span>
+                            <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium text-gray-700 dark:text-gray-300">Software Development Technology</span>
+                            <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium text-gray-700 dark:text-gray-300">Enterprise System Design & Modeling</span>
+                            <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium text-gray-700 dark:text-gray-300">High Performance Data Processing</span>
+                            <span class="px-3 py-1 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-full text-xs font-medium text-gray-700 dark:text-gray-300">Business Intelligence</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="flex-1">
-                <h3 class="text-2xl font-Ovo mb-6 flex items-center gap-2">
-                    <img src="./assets/project-icon.png" alt="" class="w-6 dark:invert"> Key Achievements
+            <!-- Right Column: Certifications -->
+            <div class="flex-1 bg-white/50 dark:bg-darkHover/20 border border-gray-300 dark:border-white/10 rounded-3xl p-8 hover:shadow-black dark:hover:shadow-white/20 transition-all duration-300">
+                <h3 class="text-2xl font-Ovo mb-8 flex items-center gap-3 text-gray-800 dark:text-white border-b border-gray-200 dark:border-white/10 pb-4">
+                    <img src="./assets/project-icon.png" alt="Certifications" class="w-6 dark:hidden">
+                    <img src="./assets/project-icon-dark.png" alt="Certifications" class="w-6 hidden dark:block">
+                    Certifications
                 </h3>
                 
-                <div class="grid grid-cols-1 gap-4">
-                    <div class="p-5 border border-gray-300 dark:border-white/20 rounded-xl hover:bg-lightHover dark:hover:bg-darkHover/50 transition duration-500">
-                        <h2 class="font-bold text-lg text-700 dark:text-white font-Ovo">Dean's List Award</h2>
-                        <p class="text-sm text-gray-600 dark:text-white/70">Awarded for academic excellence in multiple semesters.</p>
-                    </div>
+                <div class="space-y-6">
+                    <!-- Cert 1 -->
+                    <a href="https://www.credly.com/earner/earned/badge/3ec94e47-2c0d-4a7e-af1b-4ace200bf5c0" target="_blank" 
+                       class="group flex items-start gap-4 p-5 border border-gray-200 dark:border-white/10 rounded-2xl bg-white/50 dark:bg-darkTheme/40 hover:border-[#da7d20] dark:hover:border-orange-400 hover:bg-lightHover dark:hover:bg-darkHover/40 transition-all duration-300">
+                        <div class="p-2.5 bg-blue-50 dark:bg-blue-950/30 rounded-xl text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-gray-800 dark:text-white group-hover:text-[#da7d20] dark:group-hover:text-orange-400 transition-colors">Microsoft Certified: Azure Data Fundamentals</h4>
+                            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Microsoft · Credly Badge Verification</p>
+                            <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-[#da7d20] dark:text-orange-400 mt-3 group-hover:underline">
+                                Verify Credential
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                            </span>
+                        </div>
+                    </a>
 
-                    <div class="p-5 border border-gray-300 dark:border-white/20 rounded-xl hover:bg-lightHover dark:hover:bg-darkHover/50 transition duration-500">
-                        <h2 class="font-bold text-lg text-700 dark:text-white font-Ovo">Active in student council of Kolej Tun Dr. Ismail (JKM KTDI)</h2>
-                        <p class="text-sm text-gray-600 dark:text-white/70">Member's of Multimedia Department  [2024-2025] <br>
-                            - Managed social media content and event promotions for the college community.
-                        </p>
-                        <p class="text-sm text-gray-600 dark:text-white/70">PIC of Community - SOSCA'25 (Soul of Siam and Champa) [2025]<br>
-                            - Proactively identifying and manage collaboration with Malay communities in Thailand and Cambodia.
-                        </p>
-                        <p class="text-sm text-gray-600 dark:text-white/70">Director of Malam Seribu Berkah Program [2025]<br>
-                            - Led the team in organizing a college event aimed at strengthening bonds and fostering closer relationships among students in conjunction with the month of Ramadan.
-                        </p>
-                    </div>
-
-                    <div class="p-5 border border-gray-300 dark:border-white/20 rounded-xl hover:bg-lightHover dark:hover:bg-darkHover/50 transition duration-500">
-                        <h2 class="font-bold text-lg text-700 dark:text-white font-Ovo">Obtained Azure Certificate</h2>
-                        <p class="text-sm text-gray-600 dark:text-white/70">Completed professional certification in Microsoft Azure Data Fundamental.</p>
-                        <a href="assets/azure certificate.pdf" title="Project PDF" class="p-2 bg-white dark:bg-zinc-800 rounded-full shadow-sm hover:bg-lime-300 dark:hover:bg-lime-300 transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
-                        </a>
-                    </div>
+                    <!-- Cert 2 -->
+                    <a href="https://www.credly.com/badges/69edd448-87c1-40b6-90a4-b518329f95f1/public_url" target="_blank"
+                       class="group flex items-start gap-4 p-5 border border-gray-200 dark:border-white/10 rounded-2xl bg-white/50 dark:bg-darkTheme/40 hover:border-[#da7d20] dark:hover:border-orange-400 hover:bg-lightHover dark:hover:bg-darkHover/40 transition-all duration-300">
+                        <div class="p-2.5 bg-orange-50 dark:bg-orange-950/30 rounded-xl text-[#da7d20] dark:text-orange-400 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-gray-800 dark:text-white group-hover:text-[#da7d20] dark:group-hover:text-orange-400 transition-colors">Alteryx Designer Core Certification</h4>
+                            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Alteryx · Credly Badge Verification</p>
+                            <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-[#da7d20] dark:text-orange-400 mt-3 group-hover:underline">
+                                Verify Credential
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                            </span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+
+
+    <!-- ----- leadership & club activities section ------ -->
+    <div id="leadership" class="w-full px-[12%] py-10 scroll-mt-20">
+        <h4 class="text-center mb-2 text-lg font-Ovo font-semibold text-[#da7d20] dark:text-orange-400">My Activities</h4>
+        <h2 class="text-center text-5xl font-Ovo">Leadership & Club Activities</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-16 max-w-6xl mx-auto">
+            <!-- Card 1 -->
+            <div class="border border-gray-300 dark:border-white/10 rounded-2xl p-6 bg-white/50 dark:bg-darkHover/10 hover:-translate-y-1 hover:shadow-black dark:hover:shadow-white/20 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-2.5 py-1 bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-400 rounded-full text-xs font-semibold">2026</span>
+                        <div class="w-8 h-8 rounded-full bg-purple-100 dark:bg-purple-950/40 flex items-center justify-center text-purple-600 dark:text-purple-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 dark:text-white font-Ovo">Multimedia Unit</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Pontianak Odyssey Voyage 2026 (POV'26)</p>
+                </div>
+                <div class="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 mt-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Indonesia
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="border border-gray-300 dark:border-white/10 rounded-2xl p-6 bg-white/50 dark:bg-darkHover/10 hover:-translate-y-1 hover:shadow-black dark:hover:shadow-white/20 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-2.5 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-600 dark:text-blue-400 rounded-full text-xs font-semibold">2024/25</span>
+                        <div class="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-950/40 flex items-center justify-center text-blue-600 dark:text-blue-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 dark:text-white font-Ovo">Multimedia Committee Member</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Jawatankuasa Kolej Pelajar Kolej Tun Dr. Ismail 24/25</p>
+                </div>
+                <div class="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 mt-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    UTM, Malaysia
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="border border-gray-300 dark:border-white/10 rounded-2xl p-6 bg-white/50 dark:bg-darkHover/10 hover:-translate-y-1 hover:shadow-black dark:hover:shadow-white/20 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-2.5 py-1 bg-green-50 dark:bg-green-950/30 text-green-600 dark:text-green-400 rounded-full text-xs font-semibold">2025</span>
+                        <div class="w-8 h-8 rounded-full bg-green-100 dark:bg-green-950/40 flex items-center justify-center text-green-600 dark:text-green-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 dark:text-white font-Ovo">PIC of Community</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Soul of Siam & Champa 2025 (SOSCA'25)</p>
+                </div>
+                <div class="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 mt-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Thailand & Cambodia
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="border border-gray-300 dark:border-white/10 rounded-2xl p-6 bg-white/50 dark:bg-darkHover/10 hover:-translate-y-1 hover:shadow-black dark:hover:shadow-white/20 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-2.5 py-1 bg-yellow-50 dark:bg-yellow-950/30 text-yellow-600 dark:text-yellow-400 rounded-full text-xs font-semibold">2024</span>
+                        <div class="w-8 h-8 rounded-full bg-yellow-100 dark:bg-yellow-950/40 flex items-center justify-center text-yellow-600 dark:text-yellow-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 dark:text-white font-Ovo">Participant</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Kem Pembentukan JKM KTDI Sesi 24/25</p>
+                </div>
+                <div class="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 mt-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    UTM, Malaysia
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="border border-gray-300 dark:border-white/10 rounded-2xl p-6 bg-white/50 dark:bg-darkHover/10 hover:-translate-y-1 hover:shadow-black dark:hover:shadow-white/20 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-2.5 py-1 bg-red-50 dark:bg-red-950/30 text-red-600 dark:text-red-400 rounded-full text-xs font-semibold">2024</span>
+                        <div class="w-8 h-8 rounded-full bg-red-100 dark:bg-red-950/40 flex items-center justify-center text-red-600 dark:text-red-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 dark:text-white font-Ovo">Volunteer</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">YES! Rock the School Mega Johor Edition 2024</p>
+                </div>
+                <div class="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 mt-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    UTM, Malaysia
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- My Work Section -->
     <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
-        <h4 class="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
-        <h2 class="text-center text-5xl font-Ovo">My latest work</h2>
-        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Welcome to my e-portfolio! Explore a
-            collection of projects showcasing my expertise as a computer science student.</p>
-        <div class="grid grid-cols-auto my-10 gap-5 dark:text-black">
-            <!-- Project 1 -->
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-                style="background-image: url('./assets/work-1.png');">
-                <div
-                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-                    <div>
-                        <h2 class="font-semibold">UTHM Hostel Management System</h2>
-                        <p class="text-sm text-gray-700">Case Study</p>
+        <h4 class="text-center mb-2 text-lg font-Ovo font-semibold text-[#da7d20] dark:text-orange-400">My Portfolio</h4>
+        <h2 class="text-center text-5xl font-Ovo">Featured Projects</h2>
+        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-gray-700 dark:text-white/80">
+            A showcase of my projects in Data Engineering, Data Analytics, and System Development, applying modern tools to solve practical data challenges.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-10 max-w-6xl mx-auto">
+            <!-- Project 1: Teacher Management System -->
+            <a href="https://github.com/aflahh12/GeniusAqil-OS" target="_blank" 
+               class="group p-8 border border-purple-200 dark:border-purple-900/30 rounded-3xl bg-[#F5F3FF] dark:bg-purple-950/10 hover:shadow-lg dark:hover:shadow-purple-950/20 hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between">
+                <div>
+                    <!-- Icon -->
+                    <div class="p-3 bg-purple-100 dark:bg-purple-950/40 text-purple-600 dark:text-purple-400 rounded-2xl w-fit mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     </div>
-                    <div
-                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                        <img src="./assets/send-icon.png" alt="" class="w-5">
+                    <!-- Details -->
+                    <span class="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-widest block mb-1">Genius Aulad Skudai</span>
+                    <h3 class="text-2xl font-bold text-gray-800 dark:text-white font-Ovo mb-3">Teacher Management System</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed mb-6 font-Ovo">
+                        A comprehensive management system developed to digitize and streamline administrative operations. The platform integrates modules for teacher record management, leave tracking, task and duty assignment, training progression monitoring, and automated reporting to enhance operational efficiency.
+                    </p>
+                </div>
+                <div>
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 bg-purple-100 dark:bg-purple-950/30 rounded-full text-xs font-medium text-purple-700 dark:text-purple-300">System Dev</span>
+                        <span class="px-3 py-1 bg-purple-100 dark:bg-purple-950/30 rounded-full text-xs font-medium text-purple-700 dark:text-purple-300">Genius Aulad Portal</span>
+                        <span class="px-3 py-1 bg-purple-100 dark:bg-purple-950/30 rounded-full text-xs font-medium text-purple-700 dark:text-purple-300">Database</span>
+                    </div>
+                    <!-- Link CTA -->
+                    <div class="flex items-center justify-between border-t border-purple-200 dark:border-purple-900/30 pt-4">
+                        <span class="text-xs font-semibold text-purple-600 dark:text-purple-400 font-Ovo">View Academic Repository</span>
+                        <div class="w-9 h-9 rounded-full border border-purple-300 dark:border-purple-800/50 flex items-center justify-center bg-white dark:bg-zinc-900 text-purple-600 dark:text-purple-400 group-hover:bg-purple-600 group-hover:text-white dark:group-hover:bg-purple-500 dark:group-hover:text-black group-hover:border-transparent transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Project 2 -->
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-                style="background-image: url('./assets/work-2.png');">
-                <div
-                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-                    <div>
-                        <h2 class="font-semibold">UTHM Enterprise Architecture</h2>
-                        <p class="text-sm text-gray-700">ERP Design</p>
+            </a>
+
+            <!-- Project 2: Recoverable Assets & Inventory Risk Pipeline -->
+            <a href="https://github.com/aflahh12/UTM-Academic-Project/blob/6f1a5c3bce8ca6863e2e84fa2f1bfe9bfbf763d2/Y3S2/STDE/STDE%20PROJECT%20GROUP%204%20(SECP3843-01).docx.pdf" target="_blank" 
+               class="group p-8 border border-blue-200 dark:border-blue-900/30 rounded-3xl bg-[#F0F9FF] dark:bg-blue-950/10 hover:shadow-lg dark:hover:shadow-blue-950/20 hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between">
+                <div>
+                    <!-- Icon -->
+                    <div class="p-3 bg-blue-100 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400 rounded-2xl w-fit mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
                     </div>
-                    <div
-                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                        <img src="./assets/send-icon.png" alt="" class="w-5">
+                    <!-- Details -->
+                    <span class="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-widest block mb-1">Microsoft Azure Pipeline</span>
+                    <h3 class="text-2xl font-bold text-gray-800 dark:text-white font-Ovo mb-3">Inventory Risk Management Pipeline</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed mb-6 font-Ovo">
+                        An end-to-end data pipeline built on Microsoft Azure that extracts unstructured manufacturing inventory files and processes them through a multi-layer Medallion architecture. The solution transforms raw records into an automated Power BI dashboard that proactively identifies real-time stockout risks and material expiration alerts.
+                    </p>
+                </div>
+                <div>
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-950/30 rounded-full text-xs font-medium text-blue-700 dark:text-blue-300">Azure Cloud</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-950/30 rounded-full text-xs font-medium text-blue-700 dark:text-blue-300">Medallion</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-950/30 rounded-full text-xs font-medium text-blue-700 dark:text-blue-300">Power BI</span>
+                    </div>
+                    <!-- Link CTA -->
+                    <div class="flex items-center justify-between border-t border-blue-200 dark:border-blue-900/30 pt-4">
+                        <span class="text-xs font-semibold text-blue-600 dark:text-blue-400 font-Ovo">View Academic Repository</span>
+                        <div class="w-9 h-9 rounded-full border border-blue-300 dark:border-blue-800/50 flex items-center justify-center bg-white dark:bg-zinc-900 text-blue-600 dark:text-blue-400 group-hover:bg-blue-600 group-hover:text-white dark:group-hover:bg-blue-500 dark:group-hover:text-black group-hover:border-transparent transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Project 3 -->
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-                style="background-image: url('./assets/work-3.png');">
-                <div
-                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-                    <div>
-                        <h2 class="font-semibold">Court Booking System</h2>
-                        <p class="text-sm text-gray-700">Database Programming</p>
+            </a>
+
+            <!-- Project 3: Brazilian Government Education Census ETL Pipeline -->
+            <a href="https://github.com/aflahh12/UTM-Academic-Project/blob/6f1a5c3bce8ca6863e2e84fa2f1bfe9bfbf763d2/Y3S2/STDE/G1S1_Tutorial%20Apache%20Spark.pdf" target="_blank" 
+               class="group p-8 border border-emerald-200 dark:border-emerald-900/30 rounded-3xl bg-[#ECFDF5] dark:bg-emerald-950/10 hover:shadow-lg dark:hover:shadow-emerald-950/20 hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between">
+                <div>
+                    <!-- Icon -->
+                    <div class="p-3 bg-emerald-100 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 rounded-2xl w-fit mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
                     </div>
-                    <div
-                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                        <img src="./assets/send-icon.png" alt="" class="w-5">
+                    <!-- Details -->
+                    <span class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-widest block mb-1">Big Data ETL</span>
+                    <h3 class="text-2xl font-bold text-gray-800 dark:text-white font-Ovo mb-3">Education Census ETL Pipeline</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed mb-6 font-Ovo">
+                        A scalable ETL pipeline that ingests 2.2 GB of unstructured public census CSV data using Apache Spark (PySpark). The data is transformed, compressed into Parquet files, and loaded into a Star Schema relational database for optimized analytical querying and reporting.
+                    </p>
+                </div>
+                <div>
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 bg-emerald-100 dark:bg-emerald-950/30 rounded-full text-xs font-medium text-emerald-700 dark:text-emerald-300">Apache Spark</span>
+                        <span class="px-3 py-1 bg-emerald-100 dark:bg-emerald-950/30 rounded-full text-xs font-medium text-emerald-700 dark:text-emerald-300">PySpark</span>
+                        <span class="px-3 py-1 bg-emerald-100 dark:bg-emerald-950/30 rounded-full text-xs font-medium text-emerald-700 dark:text-emerald-300">Star Schema</span>
+                    </div>
+                    <!-- Link CTA -->
+                    <div class="flex items-center justify-between border-t border-emerald-200 dark:border-emerald-900/30 pt-4">
+                        <span class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 font-Ovo">View Academic Repository</span>
+                        <div class="w-9 h-9 rounded-full border border-emerald-300 dark:border-emerald-800/50 flex items-center justify-center bg-white dark:bg-zinc-900 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-600 group-hover:text-white dark:group-hover:bg-emerald-500 dark:group-hover:text-black group-hover:border-transparent transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Project 4 -->
-            <div class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-                style="background-image: url('./assets/work-4.png');">
-                <div
-                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-                    <div>
-                        <h2 class="font-semibold">Attendance System</h2>
-                        <p class="text-sm text-gray-700">Database Programming</p>
+            </a>
+
+            <!-- Project 4: Vehicle Emissions & Fuel Efficiency Analysis -->
+            <a href="https://github.com/aflahh12/Data-Analysis-Programming-Project/blob/ddc0760e86dc4cde49c3bd78693f434ae86f4c2b/Phase_II_SECP3223_Notebook-checkpoint.ipynb" target="_blank" 
+               class="group p-8 border border-rose-200 dark:border-rose-900/30 rounded-3xl bg-[#FFF1F2] dark:bg-rose-950/10 hover:shadow-lg dark:hover:shadow-rose-950/20 hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between">
+                <div>
+                    <!-- Icon -->
+                    <div class="p-3 bg-rose-100 dark:bg-rose-950/40 text-rose-600 dark:text-rose-400 rounded-2xl w-fit mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
                     </div>
-                    <div
-                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                        <img src="./assets/send-icon.png" alt="" class="w-5">
+                    <!-- Details -->
+                    <span class="text-xs font-semibold text-rose-600 dark:text-rose-400 uppercase tracking-widest block mb-1">Data Analytics</span>
+                    <h3 class="text-2xl font-bold text-gray-800 dark:text-white font-Ovo mb-3">Vehicle Emissions & Fuel Analysis</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed mb-6 font-Ovo">
+                        An exploratory data analysis project that ingests automotive datasets and processes them using Python and Pandas. The project includes data cleaning, transformation, and generation of interactive visualizations using Matplotlib and Seaborn to uncover patterns and trends in vehicle emissions and fuel efficiency.
+                    </p>
+                </div>
+                <div>
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 bg-rose-100 dark:bg-rose-950/30 rounded-full text-xs font-medium text-rose-700 dark:text-rose-300">Python & Pandas</span>
+                        <span class="px-3 py-1 bg-rose-100 dark:bg-rose-950/30 rounded-full text-xs font-medium text-rose-700 dark:text-rose-300">Matplotlib</span>
+                        <span class="px-3 py-1 bg-rose-100 dark:bg-rose-950/30 rounded-full text-xs font-medium text-rose-700 dark:text-rose-300">Seaborn</span>
+                    </div>
+                    <!-- Link CTA -->
+                    <div class="flex items-center justify-between border-t border-rose-200 dark:border-rose-900/30 pt-4">
+                        <span class="text-xs font-semibold text-rose-600 dark:text-rose-400 font-Ovo">View Academic Repository</span>
+                        <div class="w-9 h-9 rounded-full border border-rose-300 dark:border-rose-800/50 flex items-center justify-center bg-white dark:bg-zinc-900 text-rose-600 dark:text-rose-400 group-hover:bg-rose-600 group-hover:text-white dark:group-hover:bg-rose-500 dark:group-hover:text-black group-hover:border-transparent transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div><a href="./fullproject.html"
-            class="w-max flex items-center justify-center gap-2 text-gray-700 border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover rounded-full py-2 px-8 mx-auto my-20 duration-300 dark:text-white">Show
-            more<img src="./assets/right-arrow-bold.png" alt="" class="w-4 dark:hidden"><img
-                src="./assets/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block"></a>
+            </a>
+        </div>
+        
+        <a href="./fullproject.html"
+            class="w-max flex items-center justify-center gap-2 text-gray-700 border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover rounded-full py-2.5 px-8 mx-auto my-16 duration-300 dark:text-white">
+            Show More Projects
+            <img src="./assets/right-arrow-bold.png" alt="" class="w-4 dark:hidden">
+            <img src="./assets/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block">
+        </a>
     </div>
 
     <!-- Contact me section -->
